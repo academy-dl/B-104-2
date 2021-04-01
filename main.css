@@ -167,16 +167,13 @@ img {
 .map-address {
   font-size: 15px;
   line-height: 18px;
-  
   color: #FFFFFF;
-
   margin-top: 0;
   margin-bottom: 23px;
 }
 
 .map-tel {
   display: inline-block;
-
   font-weight: bold;
   font-size: 15px;
   line-height: 18px;
@@ -211,6 +208,7 @@ img {
 .footer-contant {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-link {

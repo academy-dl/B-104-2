@@ -84,7 +84,7 @@
   line-height: 21px;
 
   color: #2C3036;
-  margin-top: 20px;
+  margin-top: 16px;
   margin-bottom: 20px;
 }
 
@@ -102,6 +102,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
+  margin-top: 0;
   
   color: #005DAB;
 }
@@ -137,6 +138,7 @@
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .achievement-link {

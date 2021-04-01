@@ -34,6 +34,14 @@
   </header>
   <main>
     <form method="get" class="contact-us-form">
+
+      <div class="row">
+        <div class="col">
+          <label class="input-wrapper">Name</label>
+          <input class="input" type="text" name="name" placeholder="Ivan Ivanov">
+        </div>
+      </div>
+      
       <div class="row">
         <div class="col">
           <label class="input-wrapper">
@@ -62,10 +70,23 @@
         <legend>
           Payment Methods
         </legend>
-        <ul>
-          <li><label><input type="checkbox" name="paymentMethod" value="1"><span>Сash</span></label></li>
-          <li><label><input type="checkbox" name="paymentMethod" value="2"><span>Сredit Сard</span></label></li>
-          <li><label><input type="checkbox" name="paymentMethod" value="3"><span>Receipt</span></label></li>
+        <ul class="checkbox-block">
+          <li>
+            <label>
+              <input class="checkbox" type="checkbox" name="paymentMethod" value="1" checked>
+              <span class="label-checkbox">Сash</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input class="checkbox" type="checkbox" name="paymentMethod" value="2" disabled>
+              <span class="label-checkbox">Сredit Сard</span>
+            </label></li>
+          <li>
+            <label>
+              <input class="checkbox" type="checkbox" name="paymentMethod" value="3">
+              <span class="label-checkbox">Receipt</span>
+            </label></li>
         </ul>
       </fieldset>
       <div class="row">
@@ -80,9 +101,19 @@
         <legend>
           Do you need a report on the services provided?
         </legend>
-        <ul>
-          <li><label><input type="radio" name="isNeed" value="1"><span>Yes</span></label></li>
-          <li><label><input type="radio" name="isNeed" value="0"><span>No</span></label></li>
+        <ul class="radio-block">
+          <li>
+            <label>
+              <input class="radio" type="radio" name="isNeed" value="1">
+              <span class="label-radio">Yes</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input class="radio" type="radio" name="isNeed" value="0">
+              <span class="label-radio">No</span>
+            </label>
+          </li>
         </ul>
       </fieldset>
 
